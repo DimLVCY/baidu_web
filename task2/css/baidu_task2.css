@@ -1,0 +1,78 @@
+ 
+	body{ 
+		background-color: lavender;}
+	 
+    header{background-color:black;
+           }
+    header ul {display: inline-block;
+                 float: right;                 }
+    header ul li{display: inline-block;
+                 margin-top: 20px;}
+    
+    
+    
+    
+    article{margin:10px;
+	      padding:5px;
+	      border:1px;
+	      background-color:white;
+	      padding:10px;
+	      }
+	           
+    .image{margin:20px 40px; 
+	       border: 1px solid black;
+	       padding: 20px 10px 10px 10px;
+	       width: 300px;
+	       }
+	.image P{text-align:center;}
+    
+    table{height: 10px;
+          text-align: center;} 
+    
+    table{width: 100%;
+          border-bottom: 1px solid #E6E6FA;
+          border-right: 1px solid #E6E6FA;}
+    table tr th,td{border-left: 1px solid #E6E6FA;
+                  border-top:  1px solid #E6E6FA;
+                  text-align: left; 
+                   }
+    table tr th{background-color:#000000;
+                 color: white;} 
+    table tfoot{background-color: gainsboro;}
+     
+    form label{display: inline-block; 
+    	       text-align: right;
+    	      width: 400px;
+    	      padding-bottom: 10px;}
+    form span{display:block;
+    	      color: darkgray;
+              margin-left: 400px;
+              font-size: small;
+              }
+    form textarea{width:60%;
+                  font-size: small;}
+    .sumbit{ display: block; 
+             margin-right:10px;  
+             text-align: center;
+             color: white;
+             background-color: blue;
+             height: 40px;
+             width: 100%;
+             font-size: 18px;  
+             border-radius: 10px;}/*设置确认提交按钮的圆角大小*/
+            
+    footer{display: block;
+          background-color:black;
+          color: white;
+          text-align:center;
+          font-size:15px;
+          padding :30px 0px;
+          width:100%;
+           
+          }    
+               
+    
+     
+    
+     
+        
