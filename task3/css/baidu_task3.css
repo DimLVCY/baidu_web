@@ -1,0 +1,33 @@
+body p h5{margin: 0;padding: 0;}
+
+article{background-color: #eee;
+     border: 1px solid #999;
+     margin:20px;
+     height: 420px;
+     padding: 20px;
+     position: relative;}
+
+.one{width:160px;
+    border:1px solid #999;
+    padding: 20px;
+    background-color:white;
+    position: relative;
+    float: left;}
+.one p{ top:20px;
+        right:20px;
+        position: absolute;}
+
+.two{border: 1px solid #999;
+     margin: 0 140px 0 220px;
+     padding: 20px;
+     background-color:white;}
+
+.three{border: 1px solid #999;
+     width: 80px;
+     padding: 0 20px;
+     position: absolute; 
+     top: 20px;
+     right: 20px; 
+     background-color:white;}
+.three img{display: block;
+         margin:20px 0;}
