@@ -1,0 +1,41 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>删除节点removeChild</title>
+</head>
+
+<body>
+<div id="content">
+  <h1>html</h1>
+  <h1>php</h1>
+  <h1>javascript</h1>
+  <h1>jquery</h1>
+  <h1>java</h1>
+</div>
+
+<script type="text/javascript">
+/*此方法有纰漏： content.childNodes.length放在循环当中，
+  长度会随着删除节点的变化而变化，所以不能一次性的删除节点，节点的顺序也会发生变化。
+	 function clearText() {
+		  var content=document.getElementById("content"); 
+		  for(var i=0;i<content.childNodes.length;i++)
+		  { content.removeChild(content.childNodes[i]); 
+		  }  
+}
+*/
+
+function clearText() { 
+  var content=document.getElementById("content"); 
+  var length=content.childNodes.length;
+  //节点长度存放在length中
+  for(var i=0;i<length;i++)
+  { content.removeChild(content.childNodes[0]);
+  	//因为0而不是i，这样每次都删除第一个节点
+  }  
+}
+
+</script> 
+<button onclick="clearText()">清除节点内容</button>  
+</body>
+</html>
