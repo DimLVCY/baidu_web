@@ -1,0 +1,62 @@
+*{margin: 0;
+  padding: 0;}
+body{margin: 0 50px;
+     width: 1092px;}  
+  
+.one{width: 1092px;
+     height: 130px;
+     background-color:dimgrey; 
+	   }
+.one td{width: 50px;
+        color: white;
+        font-size: medium;
+        margin: 0 auto;}  
+ 
+.two{width: 1052px; 
+     background-color: gray;
+     padding: 20px;} 
+.two .left{width: 30%;
+           display: inline-block;}
+.two .right{display: inline-block;}
+
+.three{width: 1012px; 
+     background-color:white;
+     padding: 40px;
+    } 
+.three .a{width: 30%;
+          display: inline-block;}
+          
+.four{width: 1012px; 
+     background-color: lightgrey;
+     padding:40px ;
+     
+      } 
+.four .a{width: 400px;
+         float: left;
+         display: inline-block;}
+.four .b{display: inline-block;}    
+.four .c{width: 200px;
+	       display: inline-block; 
+         }   
+         
+.five{width: 1012px; 
+     background-color:white;
+     padding: 40px; }             
+.five .a{width: 300px;
+         display: inline-block;}
+         
+.six{width: 1052px; 
+     background-color: gray;
+     padding: 20px;}          
+.six .a{width: 300px;
+        display: inline-block;
+        color: white;}
+.six .a input{margin-bottom: 5px;}
+
+.seven{width: 1092px;
+     height: 40px;
+     background-color:dimgrey;  
+     text-align: center;
+     color: white;
+        }
+ 
